@@ -1,8 +1,12 @@
-<!-- platform: xbox -->
+<!-- @if PLATFORM == 'xbox' -->
 <a></a>
-<!-- platform: not-xbox -->
+<!-- @endif -->
+<!-- @if PLATFORM != 'xbox' -->
 <b></b>
-<!-- platform: desktop -->
+<!-- @endif -->
+<!-- @if PLATFORM == 'desktop' -->
 <c></c>
-<!-- platform: not-desktop -->
+<!-- @endif -->
+<!-- @if PLATFORM != 'desktop' -->
 <d></d>
+<!-- @endif -->

@@ -1,8 +1,12 @@
-<!-- platform: xbox -->
+<!-- @if PLATFORM == 'xbox' -->
 <a></a>
-<!-- locale: not-en -->
+<!-- @endif -->
+<!-- @if locale != 'en' -->
 <b></b>
-<!-- locale: en -->
+<!-- @endif -->
+<!-- @if locale == 'en' -->
 <c></c>
-<!-- platform: not-desktop -->
+<!-- @endif -->
+<!-- @if PLATFORM != 'desktop' -->
 <d></d>
+<!-- @endif -->

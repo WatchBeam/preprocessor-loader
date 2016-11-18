@@ -1,7 +1,7 @@
 'use strict';
 
 const qs = require('querystring');
-const preprocessor = require('preprocess')
+const preprocessor = require('preprocess');
 
 function loader (source) {
   let options;
@@ -24,3 +24,4 @@ function loader (source) {
 }
 
 module.exports = loader;
+module.exports.preprocessor = preprocessor.preprocess;

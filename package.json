@@ -1,7 +1,7 @@
 {
   "name": "preprocessor-loader",
   "version": "0.1.0",
-  "description": "C style preprocess compiler for HTML/css/etc.",
+  "description": "C/C++ style preprocess compiler for HTML/css/etc.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
