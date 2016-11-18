@@ -1,5 +1,7 @@
 # preprocessor-loader
 
+[Link](https://github.com/jsoverson/preprocess/blob/master/README.md) to `preprocess` documentation
+
 `preprocessor-loader` is a webpack loader that allows conditional compilation of HTML/TS/CSS via comment 'directives'. It's essentially a very minimalistic C/C++ preprocessor language and to interoperate fully with other templating engines and build tools. 
 
 For example, you can have split styling for a "desktop" and "xbox" build:
