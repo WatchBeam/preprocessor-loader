@@ -42,11 +42,11 @@ module.exports = {
       },
       {
         test: /\.ts$/,
-        loaders: ['raw-loader', 'preprocessor-loader?_type=html&PLATFORM=' + platform]
+        loaders: ['raw-loader', 'preprocessor-loader?_type=ts&PLATFORM=' + platform]
       },
       {
         test: /\.scss$/,
-        loaders: ['raw-loader', 'preprocessor-loader?_type=html&PLATFORM=' + platform]
+        loaders: ['raw-loader', 'preprocessor-loader?_type=scss&PLATFORM=' + platform]
       }
     ]
   }
