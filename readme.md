@@ -1,7 +1,7 @@
 # preprocessor-loader
 
-[![npm version](https://badge.fury.io/js/webpack-preprocessor-loader.svg)](https://badge.fury.io/js/webpackpreprocessor-loader)
-[![Build Status](https://travis-ci.org/WatchBeam/webpack-preprocessor-loader.svg?branch=master)](https://travis-ci.org/WatchBeam/preprocessor-loader)
+[![npm version](https://badge.fury.io/js/@mcph/preprocessor-loader.svg)](https://badge.fury.io/js/@mcph/webpackpreprocessor-loader)
+[![Build Status](https://travis-ci.org/WatchBeam/@mcph/preprocessor-loader.svg?branch=master)](https://travis-ci.org/WatchBeam/preprocessor-loader)
 
 [Link](https://github.com/jsoverson/preprocess/blob/master/README.md) to `preprocess` documentation
 
@@ -39,15 +39,15 @@ module.exports = {
     loaders: [
       {
         test: /\.html$/,
-        loaders: ['raw-loader', 'preprocessor-loader?_type=html&PLATFORM=' + platform]
+        loaders: ['raw-loader', '@mcph/preprocessor-loader?_type=html&PLATFORM=' + platform]
       },
       {
         test: /\.ts$/,
-        loaders: ['raw-loader', 'preprocessor-loader?_type=ts&PLATFORM=' + platform]
+        loaders: ['raw-loader', '@mcph/preprocessor-loader?_type=ts&PLATFORM=' + platform]
       },
       {
         test: /\.scss$/,
-        loaders: ['raw-loader', 'preprocessor-loader?_type=scss&PLATFORM=' + platform]
+        loaders: ['raw-loader', '@mcph/preprocessor-loader?_type=scss&PLATFORM=' + platform]
       }
     ]
   }

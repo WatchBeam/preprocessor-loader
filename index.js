@@ -6,7 +6,7 @@ const preprocessor = require('preprocess');
 function loader (source) {
   let options;
   try {
-    options = qs.parse(this.query.slice(1));
+    options = typeof this.query === 'string' ? qs.parse(this.query.slice(1)) : this.query;
 
     if(!options._type){
       options._type = 'html';

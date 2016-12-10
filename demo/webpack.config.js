@@ -10,9 +10,9 @@ module.exports = {
   },
   module: {
     loaders: [
-      { 
-        test: /\.html$/, 
-        loaders: ['preprocessor-loader?PLATFORM=xbox', 'html'] 
+      {
+        test: /\.html$/,
+        loaders: ['@mcph/preprocessor-loader?PLATFORM=xbox', 'html']
       },
     ]
   }
