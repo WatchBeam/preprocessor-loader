@@ -1,11 +1,8 @@
 'use strict';
 
 const expect = require('chai').expect;
-const path = require('path');
 const preprocessor = require('./').preprocessor;
 const fs = require('fs');
-
-console.log(preprocessor);
 
 describe('preprocessor-loader', () => {
   const assertOutputs = (name, params) => {

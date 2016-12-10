@@ -4,7 +4,7 @@
   "description": "C/C++ style preprocess compiler for HTML/css/etc.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha test.js",
     "start": "webpack-dev-server --config demo/webpack.config.js --content-base demo"
   },
   "repository": {
