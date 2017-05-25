@@ -1,6 +1,6 @@
 {
   "name": "@mcph/preprocessor-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "C/C++ style preprocess compiler for HTML/css/etc.",
   "main": "index.js",
   "scripts": {
