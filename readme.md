@@ -1,7 +1,7 @@
 # preprocessor-loader
 
 [![npm version](https://badge.fury.io/js/@mcph/preprocessor-loader.svg)](https://badge.fury.io/js/@mcph/webpackpreprocessor-loader)
-[![Build Status](https://travis-ci.org/WatchBeam/@mcph/preprocessor-loader.svg?branch=master)](https://travis-ci.org/WatchBeam/preprocessor-loader)
+[![Build Status](https://travis-ci.org/mixer/@mcph/preprocessor-loader.svg?branch=master)](https://travis-ci.org/mixer/preprocessor-loader)
 
 [Link](https://github.com/jsoverson/preprocess/blob/master/README.md) to `preprocess` documentation
 

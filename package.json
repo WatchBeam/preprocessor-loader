@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WatchBeam/preprocessor-loader.git"
+    "url": "git+https://github.com/mixer/preprocessor-loader.git"
   },
   "keywords": [
     "webpack",
