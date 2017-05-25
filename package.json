@@ -20,9 +20,9 @@
   "author": "Jonathan Lobaugh <joloba@microsoft.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WatchBeam/preprocessor-loader/issues"
+    "url": "https://github.com/mixer/preprocessor-loader/issues"
   },
-  "homepage": "https://github.com/WatchBeam/preprocessor-loader#readme",
+  "homepage": "https://github.com/mixer/preprocessor-loader#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "html-loader": "^0.4.4",
