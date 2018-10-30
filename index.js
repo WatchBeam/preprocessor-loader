@@ -3,22 +3,25 @@
 const qs = require('querystring');
 const preprocessor = require('preprocess');
 
-function loader (source) {
-  let options;
+function parseQuery(query) {
   try {
-    options = typeof this.query === 'string' ? qs.parse(this.query.slice(1)) : this.query;
+    const options = typeof query === 'string' ? qs.parse(query.slice(1)) : query;
 
     if(!options._type){
       options._type = 'html';
     }
 
+    return options;
   } catch (err) {
     throw new Error(
       'Preprocessor-loader is unable to parse the provided query string. ' +
       'Please see usage instructions here: https://git.io/vXmzf'
     );
   }
+}
 
+function loader (source) {
+  const options = parseQuery(this.query);
   this.cacheable();
   return preprocessor.preprocess(source, options, { type: options._type });
 }
