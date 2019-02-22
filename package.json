@@ -32,8 +32,5 @@
   },
   "dependencies": {
     "preprocess": "^3.1.0"
-  },
-  "publishConfig": {
-    "registry": "https://watchmixer.pkgs.visualstudio.com/_packaging/mixer/npm/registry/"
   }
 }
