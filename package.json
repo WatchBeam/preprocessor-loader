@@ -1,5 +1,5 @@
 {
-  "name": "@mcph/preprocessor-loader",
+  "name": "@mixer/preprocessor-loader",
   "version": "1.0.2",
   "description": "C/C++ style preprocess compiler for HTML/css/etc.",
   "main": "index.js",
@@ -32,5 +32,8 @@
   },
   "dependencies": {
     "preprocess": "^3.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://watchmixer.pkgs.visualstudio.com/_packaging/mixer/npm/registry/"
   }
 }
