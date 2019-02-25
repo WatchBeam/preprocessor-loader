@@ -1,5 +1,5 @@
 {
-  "name": "@mcph/preprocessor-loader",
+  "name": "@mixer/preprocessor-loader",
   "version": "1.0.2",
   "description": "C/C++ style preprocess compiler for HTML/css/etc.",
   "main": "index.js",
